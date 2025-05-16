@@ -1,0 +1,15 @@
+{
+  "name": "robofederal",
+  "version": "1.0.0",
+  "description": "Robô da Federal Associados para envio automático de faturas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "axios": "^1.6.7",
+    "puppeteer": "^21.3.8",
+    "undici": "^7.9.0"
+  }
+}
